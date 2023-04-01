@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Paint Circle</title>
+     <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+
+    <body class="body_backgorund" >
+
+        <center>
+            <h1>Paint</h1>
+            <canvas id="myCanvas" width="800" height="600">
+            </canvas>
+            <br>
+
+
+            <div>
+
+                <label>Radius - </label>
+                <input type="text" id="radius" class="form-control" placeholder="radius" >
+
+                <label>Color - </label>
+                <input type="text" id="color" class="form-control" placeholder="color" >
+
+                <label>Width of the line - </label>
+                <input type="text" id="width_of_line" class="form-control" placeholder="width">
+
+                <button onclick="clear();" class="btn btn-success"> Clear Area</button>
+            </div>
+        </center>
+
+        <script src="main.js"></script>
+    </body>
+</html>
